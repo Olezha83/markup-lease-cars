@@ -134,6 +134,10 @@ a {
   cursor: pointer;
 }
 
+.menu__list-link_active {
+  color: #06f;
+}
+
 /* FOOTER */
 
 .footer {
@@ -379,9 +383,7 @@ a {
   margin-bottom: 50px;
 }
 
-.form__input,
-.form__textarea,
-.form__btn {
+.form-elem {
   font-family: 'Inter', sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -390,8 +392,7 @@ a {
   border: 1px solid #06f;
 }
 
-.form__input::placeholder,
-.form__textarea::placeholder {
+.form-elem::placeholder {
   font-family: 'Inter', sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -405,11 +406,11 @@ a {
   padding: 0 20px;
 }
 
-.form__input[type='text'] {
+.form__input_text {
   grid-column: 2;
 }
 
-.form__input[type='email'] {
+.form__input_email {
   grid-column: 3;
 }
 
