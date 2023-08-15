@@ -58,7 +58,7 @@ a {
 }
 
 .upper-section {
-  margin: 100px 0 150px 0;
+  margin: 100px 0 150px;
 }
 
 .sub-title {
@@ -458,4 +458,52 @@ a {
   height: 29px;
   color: #fff;
   background: #06f;
+}
+
+/* CHOOSE CARS */
+
+.tabs__btn {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  padding-bottom: 100px;
+}
+
+.tabs__btn-item {
+  background: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.tabs__btn-item_active {
+  color: #06f;
+}
+
+.tabs__content-item {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 100px 40px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  border: 1px solid #06f;
+  text-align: center;
+}
+
+.card__img {
+  width: 100%;
+  border-bottom: 1px solid #06f;
+}
+
+.card__title {
+  padding: 0 5px;
+}
+
+.card__link {
+  color: #06f;
+  border-top: 1px solid #06f;
 }

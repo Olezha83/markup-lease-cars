@@ -1,3 +1,5 @@
+// SLIDER
+
 const swiper = new Swiper('.swiper', {
   speed: 1000,
 
