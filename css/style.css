@@ -177,6 +177,21 @@ a {
   margin-bottom: 52px;
 }
 
+.app__item-link {
+  display: block;
+  width: 168px;
+  height: 50px;
+  background-image: url(../images/svg_sprite.svg);
+}
+
+.app-store {
+  background-position: -600px 0;
+}
+
+.google-store {
+  background-position: -600px -100px;
+}
+
 .footer__copyright {
   width: 806px;
   text-align: center;
@@ -266,24 +281,22 @@ a {
 /* WHY-LEASE */
 
 .why-lease__icon {
+  width: 150px;
   height: 150px;
-  background: no-repeat center;
-}
-
-.dealers {
-  background-image: url(../images/why-lease-item-1.svg);
+  margin: 0 auto;
+  background-image: url(../images/svg_sprite.svg);
 }
 
 .pricing {
-  background-image: url(../images/why-lease-item-2.svg);
+  background-position: -150px;
 }
 
 .payments {
-  background-image: url(../images/why-lease-item-3.svg);
+  background-position: -300px;
 }
 
 .upgrade {
-  background-image: url(../images/why-lease-item-4.svg);
+  background-position: -450px;
 }
 
 .why-lease__item-title {

@@ -10,9 +10,7 @@ function openTab(event) {
   tabBtns.forEach((btn) => btn.classList.remove('tabs__btn-item_active'))
   btn.classList.add('tabs__btn-item_active')
 
-  tabItems.forEach(function (item) {
-    item.classList.remove('tabs__content-item_active')
-  })
+  tabItems.forEach((item) => item.classList.remove('tabs__content-item_active'))
 
   document
     .querySelector(`#${btnData}`)
