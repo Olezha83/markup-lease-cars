@@ -99,6 +99,10 @@ a {
   width: 223px;
 }
 
+.big-btn:hover {
+  background: #06f;
+}
+
 /* HEADER MAIN */
 
 .header-main {
@@ -234,6 +238,10 @@ a {
   text-transform: uppercase;
   max-width: 430px;
   display: inline-block;
+}
+
+.top__link:hover {
+  background-color: #06f;
 }
 
 .swiper::after {
@@ -440,6 +448,7 @@ a {
   color: #fff;
   width: auto;
   border: none;
+  cursor: pointer;
 }
 
 /* BLOG */
@@ -472,6 +481,10 @@ a {
   height: 29px;
   color: #fff;
   background: #06f;
+}
+
+.blog__article-link:hover {
+  background-color: #151515;
 }
 
 /* CHOOSE CARS */
@@ -524,4 +537,9 @@ a {
 .card__link {
   color: #06f;
   border-top: 1px solid #06f;
+}
+
+.card__link:hover {
+  color: #fff;
+  background-color: #06f;
 }
