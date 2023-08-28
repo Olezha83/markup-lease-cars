@@ -22,13 +22,14 @@
               <img src="images/logo.svg" alt="" class="logo__img" />
             </a>
             <nav class="menu">
+              <button class="menu__btn">
+                <span class="menu__btn-line"></span>
+                <span class="menu__btn-line"></span>
+                <span class="menu__btn-line"></span>
+              </button>
               <ul class="menu__list">
                 <li class="menu__list-item">
-                  <a
-                    href="./new-cars.html"
-                    class="menu__list-link menu__list-link_active"
-                    >NEW CARS</a
-                  >
+                  <a href="./new-cars.html" class="menu__list-link">NEW CARS</a>
                 </li>
                 <li class="menu__list-item">
                   <a href="#" class="menu__list-link">PRE-OWNED CARS</a>
@@ -466,7 +467,7 @@
 
       <footer class="footer">
         <div class="container">
-          <ul class="footer__menu four-col-grid">
+          <ul class="footer__menu">
             <li class="footer__menu-item">
               <div class="footer__menu-item-wrapper">
                 <h5 class="footer__menu-title sub-title">Products</h5>
@@ -475,7 +476,7 @@
                     <a class="footer__menu-link" href="#">Used</a>
                   </li>
                   <li class="footer__menu-item-level-2">
-                    <a class="footer__menu-link" href="#">New</a>
+                    <a class="footer__menu-link" href="./new-cars.html">New</a>
                   </li>
                   <li class="footer__menu-item-level-2">
                     <a class="footer__menu-link" href="#">Sell your car</a>
@@ -585,6 +586,8 @@
       </footer>
     </div>
 
+    <script src="./js/nav.js"></script>
     <script src="./js/tabs.js"></script>
+    <script src="./js/footer.js"></script>
   </body>
 </html>
