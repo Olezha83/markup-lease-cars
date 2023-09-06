@@ -72,6 +72,20 @@ a {
   font-weight: 700;
 }
 
+.four-col-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 40px;
+}
+
+.four-col-item {
+  grid-column: 1 / -1;
+}
+
+.two-mdl-col-item {
+  grid-column: 2 / 4;
+}
+
 .header {
   background-color: #151515;
 }
