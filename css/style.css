@@ -60,11 +60,11 @@ a {
 }
 
 .mdl-section {
-  margin: 150px 0;
+  margin: 75px 0;
 }
 
 .upper-section {
-  margin: 100px 0 150px;
+  margin: 75px 0 100px;
 }
 
 .sub-title {
@@ -685,6 +685,12 @@ a {
 }
 
 @media (min-width: 768px) {
+  /* GLOBAL STYLES */
+
+  .mdl-section {
+    margin: 100px 0;
+  }
+
   /* SLIDER */
 
   .title {
@@ -898,6 +904,16 @@ a {
 }
 
 @media (min-width: 1237px) {
+  /* GLOBAL STYLES */
+
+  .mdl-section {
+    margin: 150px 0;
+  }
+
+  .upper-section {
+    margin: 100px 0 150px;
+  }
+
   /* SLIDER */
 
   .top__link {
